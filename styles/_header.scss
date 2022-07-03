@@ -1,14 +1,34 @@
-.NavContainer{
+.NavContainer {
     height: 80px;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.NavLink{
-    a{
+
+.NavLink {
+    a {
         padding: 2rem;
     }
 }
-.NavLogo{
 
+.Fade {
+    animation: fadeIn 5s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+
+    /*animation-nameで設定した値を書く*/
+    0% {
+        opacity: 0
+    }
+
+    /*アニメーション開始時は不透明度0%*/
+    100% {
+        opacity: 1
+    }
+
+    /*アニメーション終了時は不透明度100%*/
+}
+.hibox{
+    height: 200vh;
 }

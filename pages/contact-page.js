@@ -1,24 +1,35 @@
 import Layout from "../components/Layout";
-import React from "react";
-import ReactDOM from "react-dom";
-import { motion } from "framer-motion";
-
+import {motion} from "framer-motion";
+import styles from "../styles/Home.module.scss";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+import { useAnimation } from "framer-motion";
 
 const Contact = () => {
-  
+  const {ref, inView } = useInView();
+  const animation = useAnimation();
+
+  useEffect(() =>{
+    if(inView){
+      animation.start({
+        x: 0,
+        transition: {
+          type: 'spring',duration: 1, bounce: 0.3
+        }
+      });
+    }
+    if(!inView){
+      animation.start({x:'-100px'})
+    }
+    
+  },[inView]);
   return (
     <Layout title="Contact">
-      <div>contact-page</div>
-      <motion.div
-        style={{ backgroundColor: "red", width: "30px", height: "30px" }}
-        animate={{
-          x: [0, 100, 50]
-        }}
-        transition={{
-          duration: 2,
-          times: [0, 0.2, 1]
-        }}
-      />
+      <div className={styles.hibox}>testcontainer</div>
+      <motion.div 
+      animation={animation}>
+      <div ref={ref}>contact-page</div>
+      </motion.div>
     </Layout>
   )
 }
