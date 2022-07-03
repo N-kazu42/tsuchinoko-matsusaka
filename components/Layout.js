@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
+import Header from "../components/header"
 
 export default function Layout({ children, title = "HP by Nextjs" }) {
   return (
@@ -11,26 +12,7 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
       </Head>
       <header>
         <nav className={styles.NavContainer}>
-            <div className={styles.NavLogo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-            </div>
-                <div className={styles.NavLink}>
-                    <Link href="/">
-                        <a>
-                        Home
-                        </a>
-                    </Link>
-                    <Link href="/blog-page">
-                        <a>
-                        blog
-                        </a>
-                    </Link>
-                    <Link href="/contact-page">
-                        <a>
-                        contact
-                        </a>
-                    </Link>
-                </div>
+            <Header></Header>
         </nav>
       </header>
       <main className="">{children}</main>
