@@ -1,0 +1,29 @@
+.Footer{
+    margin-top: 5rem;
+    padding: 3rem;
+    background-color:#AD753D;
+}
+.FooterContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .addressContainer{
+        display: flex;
+    }
+    .address{
+        padding: 1rem;
+        p{
+            margin: 0;
+        }
+    }
+    nav{
+        width: 50%;
+        ul{
+            display: flex;
+            li{
+                display: inline-block;
+                width: 100%;
+            }
+        }
+    }
+}

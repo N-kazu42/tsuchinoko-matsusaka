@@ -1,0 +1,49 @@
+.About {
+    padding-top: 5rem;
+}
+.Block1 {
+    margin-top: 10rem;
+    position: relative;
+    height: 450px;
+}
+.AboutImg {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    width: calc(50% + 140px);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    border-radius: 30px;
+}
+.AboutText {
+    position: absolute;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 200px;
+    right: 20%;
+    padding: 4rem 5rem;
+    border-radius: 30px;
+    background-color: rgba(248, 250, 245, 0.8);
+}
+.AboutTitle {
+    font-size: 1.4rem;
+}
+.AboutComent{
+    font-size: 1.2rem;
+}
+
+.Block2 {
+    margin-top: 10rem;
+    position: relative;
+    height: 450px;
+    .AboutImg {
+        right: 0;
+    }
+    .AboutText{
+        left: -10%;
+    }
+
+}

@@ -14,7 +14,7 @@ export default function Header() {
         <div className={styles.logo}>
           <Link href="/">
             <a className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/Logo.png" alt="Logo" width={160} height={57} />
             
             </a>
             
@@ -28,13 +28,18 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/blog-page">
-              <a>blog</a>
+              <Link href="/recruitment-page">
+              <a>利用者募集</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/company-page">
+              <a>会社概要</a>
               </Link>
             </li>
             <li>
               <Link href="/contact-page">
-              <a>contact</a>
+              <a>お問い合わせ</a>
               </Link>
             </li>
             
@@ -59,23 +64,27 @@ export default function Header() {
             <Link href="/">
               <a>
                 <p className={styles.mainTitle}>HOME</p>
-                <p className={styles.subTitle}>私のメニュー</p>
               </a>
             </Link>
           </li>
           <li>
             <Link href="/blog-page">
             <a>
-              <p className={styles.mainTitle}>blog</p>
-              <p className={styles.subTitle}>私のメニュー</p>
+              <p className={styles.mainTitle}>利用者募集</p>
+            </a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/company">
+            <a>
+              <p className={styles.mainTitle}>会社概要</p>
             </a>
             </Link>
           </li>
           <li>
             <Link href="/contact">
             <a>
-              <p className={styles.mainTitle}>contact</p>
-              <p className={styles.subTitle}>私のメニュー</p>
+              <p className={styles.mainTitle}>お問い合わせ</p>
             </a>
             </Link>
           </li>
