@@ -1,28 +1,50 @@
-.Footer{
+.Footer {
     margin-top: 5rem;
     padding: 3rem;
-    background-color:#AD753D;
+    background-color: #ad753d;
+    @media (max-width: 1024px) {
+        padding: 1rem;
+    }
 }
-.FooterContainer{
+.FooterContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .addressContainer{
-        display: flex;
+    @media (max-width: 700px) {
+        font-size: .8rem;
+
     }
-    .address{
+    .addressContainer {
+        display: flex;
+        @media (max-width: 1024px) {
+            width: 50%;
+            flex-direction: column;
+        }
+    }
+    .address {
         padding: 1rem;
-        p{
+        p {
             margin: 0;
         }
     }
-    nav{
+    nav {
         width: 50%;
-        ul{
+
+        ul {
             display: flex;
-            li{
+            justify-content: space-between;
+            @media (max-width: 1024px) {
+                flex-direction: column;
+                align-items: center;
+            }
+            li {
                 display: inline-block;
-                width: 100%;
+                padding: 1.5rem;
+            @media (max-width: 700px) {
+                padding: 0.5rem;
+                font-size: .8rem;
+            }
+
             }
         }
     }

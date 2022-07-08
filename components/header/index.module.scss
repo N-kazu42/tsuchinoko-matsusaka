@@ -3,13 +3,30 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: auto;
+  height: 80px;
   padding: 0 40px;
   z-index: 50;
   position: fixed;
   background-color:#AD753D;
   top: 0;
-  
+  .logo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 190px;
+    img{
+      width: 55px;
+      height: auto;
+    }
+    p{
+      font-size: 3px;
+      margin: 0;
+    }
+    h1{
+      font-size: 1.6rem;
+      margin: 0;
+    }
+  }
   
 
   nav {
@@ -40,7 +57,7 @@
 
 @media (max-width: 1024px) {
   .header {
-    position: initial;
+    // position: initial;
     nav {
       display: none;
     }

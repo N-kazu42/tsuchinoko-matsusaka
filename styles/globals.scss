@@ -14,3 +14,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.visible {
+  opacity: 0;
+  transition: transform 0.5s linear;
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  height: 100vh;
+}
+/*　brightness　*/
+.effect {
+  animation-name: imgbrightness;
+  opacity: 1;
+  transition: .8s;
+}
+@keyframes imgbrightness {
+  0% {
+    opacity: 0;
+    filter: brightness(300%);
+  /*　明度300%　*/
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(100%);
+  /*　100%が基準値　*/
+  }
+}

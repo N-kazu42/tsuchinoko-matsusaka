@@ -1,6 +1,7 @@
 import styles from "./index.module.scss";
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 import React, {useState} from "react"
 export default function Header() {
@@ -11,11 +12,23 @@ export default function Header() {
   return (
     <React.Fragment>
       <header id="header" className={styles.header}>
-        <div className={styles.logo}>
+        <div className={styles.LogoWarrape}>
           <Link href="/">
             <a className={styles.logo}>
-            <Image src="/Logo.png" alt="Logo" width={160} height={57} />
-            
+            <motion.div 
+            animate={{ rotate: 30 }}
+            transition={{
+              type: 'spring',
+              repeat: Infinity,
+              repeatType: "reverse",
+              bounce: 0.25
+            }}>
+            <img src="/Logo.png" alt="Logo" />
+            </motion.div>
+            <div>
+              <p>就労継続支援B型事業所</p>
+              <h1>つちのこ</h1>
+            </div>
             </a>
             
           </Link>
@@ -75,14 +88,14 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/company">
+            <Link href="/company-page">
             <a>
               <p className={styles.mainTitle}>会社概要</p>
             </a>
             </Link>
           </li>
           <li>
-            <Link href="/contact">
+            <Link href="/contact-page">
             <a>
               <p className={styles.mainTitle}>お問い合わせ</p>
             </a>

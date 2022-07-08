@@ -1,0 +1,60 @@
+  .box{
+    padding-top: 10rem;
+    height: 100vh;
+  }
+  .box2{
+    height: 50vh;
+  }
+
+  .box3{
+    li{
+        height: 20vh;
+    }
+  }
+  
+
+
+  .TitleFont{
+    font-size:1.4rem;
+    @media screen and (max-width: 1300px) {
+        font-size:1.2rem;
+    }
+    @media screen and (max-width: 1000px) {
+        font-size:1rem;
+    }
+
+  }
+  .ComentFont{
+    font-size:1rem;
+    @media screen and (max-width: 1300px) {
+        font-size:.8rem;
+    }
+    @media screen and (max-width: 1000px) {
+        font-size:.7rem;
+    }
+  }
+
+  .visible {
+    opacity: 0;
+    transition: transform 0.5s linear;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+  }
+  /*　brightness　*/
+  .effect {
+    animation-name: imgbrightness;
+    opacity: 1;
+    transition: .8s;
+  }
+  @keyframes imgbrightness {
+    0% {
+      opacity: 0;
+      filter: brightness(300%);
+    /*　明度300%　*/
+    }
+    100% {
+      opacity: 1;
+      filter: brightness(100%);
+    /*　100%が基準値　*/
+    }
+  }
