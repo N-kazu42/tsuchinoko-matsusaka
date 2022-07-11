@@ -1,19 +1,7 @@
 import Layout from "../components/Layout";
-import { motion } from "framer-motion";
 import styles from "../styles/Home.module.scss";
-import { useEffect } from "react";
-import { useAnimation } from "framer-motion";
 
-const Contact = () => {
-  const controls = useAnimation()
-
-useEffect(() => {
-  controls.start(i => ({
-    opacity: 0,
-    x: 100,
-    transition: { delay: i * 0.5 },
-  }))
-}, [])
+const Company = () => {
 
   return (
     <Layout title="会社概要：つちのこ　就労継続支援B型事業所">
@@ -73,4 +61,4 @@ useEffect(() => {
   );
 };
 
-export default Contact;
+export default Company;

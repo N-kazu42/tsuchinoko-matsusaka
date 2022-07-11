@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
 import Image from "next/image";
 
-export default function recruitment() {
+export default function Recruitment() {
   const { ref, inView } = useInView({
     threshold: 0.3,
   });
@@ -47,17 +47,41 @@ export default function recruitment() {
           <p className={styles.SubTitle}>introduction</p>
         </div>
         <div className={styles.Imgs}>
-          <img src="/AboutImg1.jpg" alt="logo" />
-          <img src="/AboutImg1.jpg" alt="logo" />
-          <img src="/AboutImg1.jpg" alt="logo" />
-          <img src="/AboutImg1.jpg" alt="logo" />
-          <img src="/AboutImg1.jpg" alt="logo" />
-          <img src="/AboutImg1.jpg" alt="logo" />
+          <div
+            className={styles.Img}
+          >
+            <Image src={"/AboutImg1.jpg"} layout="fill" alt="logo" />
+          </div>
+          <div
+            className={styles.Img}
+          >
+            <Image src={"/AboutImg1.jpg"} layout="fill" alt="logo" />
+          </div>
+          <div
+            className={styles.Img}
+          >
+            <Image src={"/AboutImg1.jpg"} layout="fill" alt="logo" />
+          </div>
+          <div
+            className={styles.Img}
+          >
+            <Image src={"/AboutImg1.jpg"} layout="fill" alt="logo" />
+          </div>
+          <div
+            className={styles.Img}
+          >
+            <Image src={"/AboutImg1.jpg"} layout="fill" alt="logo" />
+          </div>
+          <div
+            className={styles.Img}
+          >
+            <Image src={"/AboutImg1.jpg"} layout="fill" alt="logo" />
+          </div>
+         
         </div>
         <div className={styles.Title}>
           <p>1日の流れ</p>
           <p className={styles.SubTitle}>flow</p>
-
         </div>
         <div className={styles.Days}>
           <dvi className={styles.DaysContainer}>
@@ -106,57 +130,72 @@ export default function recruitment() {
                 </div>
               </li>
             </ul>
-
           </dvi>
         </div>
-        <div className={styles.Flow}  ref={ref}>
-          <motion.div custom={0} animate={animation} className={styles.FlowBlock}>
+        <div className={styles.Flow} ref={ref}>
+          <motion.div
+            custom={0}
+            animate={animation}
+            className={styles.FlowBlock}
+          >
             <div className={styles.FlowText}>
               <p className={`${styles.FlowTitle} ${styles.TitleFont}`}>
-              見学・面談
+                見学・面談
               </p>
               <p className={`${styles.FlowComent} ${styles.ComentFont}`}>
-              施設を見学していただき、作業内容や雰囲気を見て頂き、サービス管理と面談しわかりやすく説明いたします
+                施設を見学していただき、作業内容や雰囲気を見て頂き、サービス管理と面談しわかりやすく説明いたします
               </p>
             </div>
           </motion.div>
-          <motion.div custom={1} animate={animation} className={styles.FlowBlock}>
+          <motion.div
+            custom={1}
+            animate={animation}
+            className={styles.FlowBlock}
+          >
             <div className={styles.FlowText}>
-              <p className={`${styles.FlowTitle} ${styles.TitleFont}`}>
-              体験
-              </p>
+              <p className={`${styles.FlowTitle} ${styles.TitleFont}`}>体験</p>
               <p className={`${styles.FlowComent} ${styles.ComentFont}`}>
-              実際に作業等、一日の流れに沿って過ごして頂き、自分らしく働けて、合っているのか体験することができます
+                実際に作業等、一日の流れに沿って過ごして頂き、自分らしく働けて、合っているのか体験することができます
               </p>
             </div>
           </motion.div>
-          <motion.div custom={2} animate={animation} className={styles.FlowBlock}>
+          <motion.div
+            custom={2}
+            animate={animation}
+            className={styles.FlowBlock}
+          >
             <div className={styles.FlowText}>
               <p className={`${styles.FlowTitle} ${styles.TitleFont}`}>
-              個別支援計画の作成
+                個別支援計画の作成
               </p>
               <p className={`${styles.FlowComent} ${styles.ComentFont}`}>
-              相談員様・サービス管理責任者との無理のない計画を立て自分らしく働けるリズムの計画を作成して行きます
+                相談員様・サービス管理責任者との無理のない計画を立て自分らしく働けるリズムの計画を作成して行きます
               </p>
             </div>
           </motion.div>
-          <motion.div custom={3} animate={animation} className={styles.FlowBlock}>
+          <motion.div
+            custom={3}
+            animate={animation}
+            className={styles.FlowBlock}
+          >
             <div className={styles.FlowText}>
-              <p className={`${styles.FlowTitle} ${styles.TitleFont}`}>
-              契約
-              </p>
+              <p className={`${styles.FlowTitle} ${styles.TitleFont}`}>契約</p>
               <p className={`${styles.FlowComent} ${styles.ComentFont}`}>
-              個別支援計画をもとにご確認いただき、必要書類等を作成し契約してまいります
+                個別支援計画をもとにご確認いただき、必要書類等を作成し契約してまいります
               </p>
             </div>
           </motion.div>
-          <motion.div custom={4} animate={animation} className={styles.FlowBlock}>
+          <motion.div
+            custom={4}
+            animate={animation}
+            className={styles.FlowBlock}
+          >
             <div className={styles.FlowText}>
               <p className={`${styles.FlowTitle} ${styles.TitleFont}`}>
-              サービス開始
+                サービス開始
               </p>
               <p className={`${styles.FlowComent} ${styles.ComentFont}`}>
-              個別支援計画に沿ったサービスを提供してまいります
+                個別支援計画に沿ったサービスを提供してまいります
               </p>
             </div>
           </motion.div>
