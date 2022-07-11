@@ -1,3 +1,4 @@
+@import "_variables.scss";
 .SubImg {
     position: relative;
     width: 100%;
@@ -8,7 +9,7 @@
     justify-content: center;
     align-items: center;
     @media screen and (max-width: 900px) {
-        top: 60px;
+        top: 70px;
     }
     h2 {
         font-size: 2rem;
@@ -30,7 +31,8 @@
     margin: 0 auto;
     .Text {
         border-radius: 30px;
-        background: rgba(255, 255, 255, 0.8);
+        background:  $whitebase-color;
+        opacity: 0.8;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 50px;
         margin-top: 5rem;
@@ -76,13 +78,15 @@
         }
     }
     .Days {
-        background: rgba(255, 255, 255, 0.8);
+        background:  $secondary-color;
+        opacity:0.8;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 50px;
         padding: 2rem;
         border-radius: 20px;
-        width: 100%;
+        width: 90%;
         height: 100%;
+        margin: 0 auto;
     }
     .DaysContainer{
         position: relative;
@@ -93,7 +97,7 @@
         max-width: 400px;
         list-style: none;
         padding-left: 20px;
-        border-left: 6px solid #ee771e;
+        border-left: 6px solid $accent-color;
         box-sizing: border-box;
         margin: 0 auto;
         @media screen and (max-width: 600px) {
@@ -126,7 +130,7 @@
                 position: absolute;
                 right: -35px;
                 top: 0;
-                background: #ee771e;
+                background:$accent-color;
                 width: 20px;
                 height: 20px;
                 border-radius: 10px;
@@ -140,7 +144,7 @@
         margin-left: 30px;
         padding: 15px 10px 15px 10px;
         vertical-align: middle;
-        background: #fcfafa;
+        background: $whitebase-color;
         box-sizing: border-box;
         border-radius: 6px;
     }
@@ -163,7 +167,7 @@
         padding-top: 5rem;
     }
     .FlowBlock {
-        border: solid 3px #555;
+        border: solid 3px $font-block;
         box-sizing: border-box;
         margin-bottom: 2rem;
         &:not(:last-child) :before {
@@ -173,7 +177,7 @@
             left: 50%;
             margin-left: -15px;
             border: 12px solid transparent;
-            border-top: 12px solid #fff;
+            border-top: 12px solid $whitebase-color;
             z-index: 2;
         }
         &:not(:last-child) :after {
@@ -183,7 +187,7 @@
             left: 50%;
             margin-left: -17px;
             border: 14px solid transparent;
-            border-top: 14px solid #555;
+            border-top: 14px solid $font-block;
             z-index: 1;
         }
         .FlowTitle {
@@ -199,7 +203,7 @@
         }
         .FlowComent {
             padding-left: 2rem;
-            border-left: 3px solid #ee771e;
+            border-left: 3px solid $accent-color;
         }
     }
 }

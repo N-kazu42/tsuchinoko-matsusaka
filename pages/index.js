@@ -53,10 +53,12 @@ export default function Home() {
           ></div>
           <div className={styles.AboutText}>
             <p className={`${styles.AboutTitle} ${styles.TitleFont}`}>
-              就労継続支援B型事業所ってなに？
+            就労継続支援B型事業所「つちのこ」　とは
             </p>
             <p className={`${styles.AboutComent} ${styles.ComentFont}`}>
-              年齢や体力などの面で雇用契約を結んで働くことが困難な方が、軽作業などの就労訓練を行うことができる福祉サービスです。
+            就労継続支援B型事業所「つちのこ」は松阪市より許認可を受けた施設です。
+利用者様それぞれの、個々の能力に応じた活動を基本姿勢とし、必要なスキルや能力の向上のサポートを致します。
+つちのこは、障がいをお持ちの方でも、今までの経験や個々の性格に合わせて、才能を開花していけるよう、支援・サポート致します
             </p>
           </div>
         </div>

@@ -29,14 +29,10 @@ const Contact = () => {
     
   },[inView]);
   return (
-    <Layout title="Contact">
-      <div className={styles.box}>testcontainer</div>
-      <motion.div 
-      animate={animation} >
-      <div ref={ref}>
-        <p className={styles.box2}>contact-page</p>
+    <Layout title="お問い合わせ：つちのこ　就労継続支援B型事業所">
+      <div className={styles.Contact}>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9qfAvu01fWrwT0I7vJcbYrfvKgU2nJPd53t5IoJo1xopAJA/viewform?embedded=true" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
       </div>
-      </motion.div>
     </Layout>
   )
 }

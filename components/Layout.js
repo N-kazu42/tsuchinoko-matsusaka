@@ -9,6 +9,7 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
     <div className={styles.container}>
       <Head>
         <title>{title}</title>
+        
       </Head>
       <header>
         <nav className={styles.NavContainer}>
@@ -60,7 +61,7 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
             </ul>
           </nav>
         </div>
-        <p style={{textAlign: 'center'}}>Powered by{" "}</p>
+        <p style={{ textAlign: "center" }}>Powered by </p>
       </footer>
     </div>
   );

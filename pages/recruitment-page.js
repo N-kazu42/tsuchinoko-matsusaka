@@ -44,6 +44,7 @@ export default function recruitment() {
         </div>
         <div className={styles.Title}>
           <p>施設紹介</p>
+          <p className={styles.SubTitle}>introduction</p>
         </div>
         <div className={styles.Imgs}>
           <img src="/AboutImg1.jpg" alt="logo" />
@@ -55,6 +56,8 @@ export default function recruitment() {
         </div>
         <div className={styles.Title}>
           <p>1日の流れ</p>
+          <p className={styles.SubTitle}>flow</p>
+
         </div>
         <div className={styles.Days}>
           <dvi className={styles.DaysContainer}>

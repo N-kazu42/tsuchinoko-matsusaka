@@ -81,7 +81,7 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/blog-page">
+            <Link href="/recruitment-page">
             <a>
               <p className={styles.mainTitle}>利用者募集</p>
             </a>

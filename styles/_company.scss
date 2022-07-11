@@ -1,0 +1,157 @@
+.company {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .Text {
+        border-radius: 30px;
+        background: $whitebase-color;
+        opacity: 0.8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .Coment {
+            font-size: 1.3rem;
+            @media screen and (max-width: 900px) {
+                font-size: 1rem;
+            }
+            @media screen and (max-width: 600px) {
+                font-size: 0.8rem;
+            }
+            padding: 3rem;
+        }
+    }
+    .Title {
+        font-size: 2rem;
+        @media screen and (max-width: 900px) {
+            font-size: 1.5rem;
+            padding: 1rem;
+            padding-top: 3rem;
+        }
+        @media screen and (max-width: 600px) {
+            font-size: 1.2rem;
+        }
+        padding: 3rem 0;
+        p {
+            text-align: center;
+        }
+    }
+    .Imgs {
+        display: flex;
+        flex-wrap: wrap;
+        img {
+            padding: 0.2rem;
+            width: 33%;
+            @media screen and (max-width: 600px) {
+                width: 50%;
+            }
+            border-radius: 20px;
+        }
+    }
+
+    .MainImg {
+        position: relative;
+        width: 100%;
+        height: 60vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .Profile {
+        padding-top: 5rem;
+        padding-bottom: 10rem;
+        @media screen and (max-width: 700px) {
+            padding-top: 0rem;
+            padding-bottom: 3rem;
+        }
+    }
+    .Block1 {
+        margin-top: 10rem;
+        position: relative;
+        height: 450px;
+    }
+    .ProfileImg {
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        width: calc(50% + 140px);
+        height: 100%;
+        @media screen and (max-width: 1000px) {
+            height: 80%;
+        }
+        @media screen and (max-width: 700px) {
+            display: block;
+            width: 100%;
+            height: 80%;
+        }
+        @media screen and (max-width: 400px) {
+            height: 50%;
+        }
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        border-radius: 30px;
+    }
+    .ProfileText {
+        position: absolute;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        top: 200px;
+        right: 20%;
+        padding: 4rem 5rem;
+        @media screen and (max-width: 1300px) {
+            padding: 3rem 3rem;
+        }
+        @media screen and (max-width: 1000px) {
+            width: 60%;
+            padding: 2rem;
+        }
+        @media screen and (max-width: 700px) {
+            width: 100%;
+            right: 0;
+        }
+        border-radius: 30px;
+        background-color: $whitebase-color;
+        opacity: 0.8;
+        .ComentFont {
+            display: flex;
+            border-bottom: 1px solid;
+            font-size: 1.2rem;
+            @media screen and (max-width: 700px) {
+                font-size: 1rem;
+            }
+            @media screen and (max-width: 400px) {
+                font-size: .8rem;
+            }
+            p:nth-of-type(1) {
+                flex-basis: 40%;
+            }
+        }
+    }
+    .ProfileTitle {
+        // font-size: 1.4rem;
+        padding-left: 1.5rem;
+        border-left: solid 5px;
+        border-radius: 2px; /* 半径が8pxの角丸 */
+        border-color: $base-color;
+    }
+
+    .Block2 {
+        margin-top: 0rem;
+
+        position: relative;
+        height: 450px;
+        .ProfileImg {
+            right: 0;
+        }
+        .ProfileText {
+            left: -10%;
+            @media screen and (max-width: 700px) {
+                width: 100%;
+                left: 0;
+            }
+        }
+    }
+}

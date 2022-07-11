@@ -1,7 +1,8 @@
+@import "_variables.scss";
 .Footer {
     margin-top: 5rem;
     padding: 3rem;
-    background-color: #ad753d;
+    background-color: $base-color;
     @media (max-width: 1024px) {
         padding: 1rem;
     }
