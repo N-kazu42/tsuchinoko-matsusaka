@@ -36,8 +36,8 @@ export default function Recruitment() {
       >
         <h2>利用者募集</h2>
       </div>
-      <section className={`${styles.container} ${styles.recruitment}`}>
-        <div className={styles.Text}>
+      <section className={`${styles.recruitment}`}>
+        <div className={`${styles.Text} ${styles.container}`}>
           <p className={`${styles.Coment} ${styles.ComentFont}`}>
             一般企業への就職が困難な障がいをお持ちの方で何かを始めたい！チャレンジしたい！とお考えの方、私たちといっしょにお仕事しませんか？
           </p>
@@ -46,7 +46,7 @@ export default function Recruitment() {
           <p>施設紹介</p>
           <p className={styles.SubTitle}>introduction</p>
         </div>
-        <div className={styles.Imgs}>
+        <div className={`${styles.Imgs} ${styles.container}`}>
           <div
             className={styles.Img}
           >
@@ -83,7 +83,7 @@ export default function Recruitment() {
           <p>1日の流れ</p>
           <p className={styles.SubTitle}>flow</p>
         </div>
-        <div className={styles.Days}>
+        <div className={`${styles.Days} ${styles.container}`}>
           <dvi className={styles.DaysContainer}>
             <ul className={styles.TimeSchedule}>
               <li>
@@ -132,7 +132,11 @@ export default function Recruitment() {
             </ul>
           </dvi>
         </div>
-        <div className={styles.Flow} ref={ref}>
+        <div className={styles.Title}>
+          <p>ご利用の流れ</p>
+          <p className={styles.SubTitle}>Usage flow</p>
+        </div>
+        <div className={`${styles.Flow} ${styles.container}`}ref={ref}>
           <motion.div
             custom={0}
             animate={animation}

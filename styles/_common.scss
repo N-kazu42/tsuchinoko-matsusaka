@@ -50,7 +50,10 @@
         font-size:.7rem;
     }
   }
-
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   .visible {
     opacity: 0;
     transition: transform 0.5s linear;

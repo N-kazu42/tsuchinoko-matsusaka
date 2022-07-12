@@ -15,11 +15,7 @@
 
     }
 }
-.Block1 {
-    margin-top: 10rem;
-    position: relative;
-    height: 450px;
-}
+
 .AboutImg {
     position: absolute;
     z-index: -1;
@@ -44,25 +40,17 @@
 }
 .AboutText {
     position: absolute;
-    width: 40%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     top: 200px;
-    right: 20%;
     padding: 4rem 5rem;
-    @media screen and (max-width: 1300px) {
-        padding: 3rem 3rem;
-    }
-    @media screen and (max-width: 1000px) {
-        width: 50%;
-        padding: 2rem;
-    }
     @media screen and (max-width: 700px) {
         width: 100%;
         right: 0;
     }
     border-radius: 30px;
-    background-color: $whitebase-color;
+    background-color: white;
     opacity:0.8;
 }
 .AboutTitle {
@@ -73,9 +61,21 @@
     border-color: $base-color;
 
 }
-
+.Block1 {
+    margin-top: 10rem;
+    position: relative;
+    height: 450px;
+    .AboutText{
+        right: 0;
+    }
+}
 .Block2 {
     margin: 10rem 0;
+    position: relative;
+    height: 450px;
+    .AboutImg{
+        right: 0;
+    }
     @media screen and (max-width: 900px) {
         margin-bottom: 1rem;
     }
@@ -84,13 +84,8 @@
     margin-bottom: 0;
 
     }
-    position: relative;
-    height: 450px;
-    .AboutImg {
-        right: 0;
-    }
     .AboutText{
-        left: -10%;
+       
         @media screen and (max-width: 700px) {
             width: 100%;
             left: 0;

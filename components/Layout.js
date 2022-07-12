@@ -6,7 +6,7 @@ import Header from "../components/header";
 
 export default function Layout({ children, title = "HP by Nextjs" }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>{title}</title>
         
