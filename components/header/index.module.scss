@@ -49,10 +49,11 @@ $font-block:#202020;
   }
   li {
     display: inline-block;
-    padding-right:5rem;
+    width: 24%;
     border-right: 1px solid;
-    
+    text-align: center;
     &:nth-child(4) {
+      width: 15%;
       background-color:$secondary-color;
       font-weight: 600;
       color:$font-block;
@@ -80,7 +81,7 @@ $font-block:#202020;
   display: none;
   cursor: pointer;
   position: fixed;
-  top: 8px;
+  top: 14px;
   right: 40px;
   span {
     background-color:$font-block;
