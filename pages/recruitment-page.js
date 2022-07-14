@@ -32,7 +32,7 @@ export default function Recruitment() {
     <Layout title="利用者募集：つちのこ　就労継続支援B型事業所">
       <div
         className={styles.SubImg}
-        style={{ backgroundImage: `url('/sub-img.png')` }}
+        style={{ backgroundImage: `url('/sub-img.webp')` }}
       >
         <h2>利用者募集</h2>
       </div>
@@ -50,32 +50,32 @@ export default function Recruitment() {
           <div
             className={styles.Img}
           >
-            <Image src={"/AboutImg1.jpg"} layout="fill" alt="logo" />
+            <Image src={"/AboutImg1.webp"} layout="fill" alt="logo" />
           </div>
           <div
             className={styles.Img}
           >
-            <Image src={"/AboutImg1.jpg"} layout="fill" alt="logo" />
+            <Image src={"/AboutImg1.webp"} layout="fill" alt="logo" />
           </div>
           <div
             className={styles.Img}
           >
-            <Image src={"/AboutImg1.jpg"} layout="fill" alt="logo" />
+            <Image src={"/AboutImg1.webp"} layout="fill" alt="logo" />
           </div>
           <div
             className={styles.Img}
           >
-            <Image src={"/AboutImg1.jpg"} layout="fill" alt="logo" />
+            <Image src={"/AboutImg1.webp"} layout="fill" alt="logo" />
           </div>
           <div
             className={styles.Img}
           >
-            <Image src={"/AboutImg1.jpg"} layout="fill" alt="logo" />
+            <Image src={"/AboutImg1.webp"} layout="fill" alt="logo" />
           </div>
           <div
             className={styles.Img}
           >
-            <Image src={"/AboutImg1.jpg"} layout="fill" alt="logo" />
+            <Image src={"/AboutImg1.webp"} layout="fill" alt="logo" />
           </div>
          
         </div>

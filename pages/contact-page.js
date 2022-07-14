@@ -6,7 +6,7 @@ const Contact = () => {
     <Layout title="お問い合わせ：つちのこ　就労継続支援B型事業所">
       <div
         className={styles.SubImg}
-        style={{ backgroundImage: `url('/sub-img.png')` }}
+        style={{ backgroundImage: `url('/sub-img.webp')` }}
       >
         <h2>お問い合わせ</h2>
       </div>

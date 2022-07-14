@@ -29,7 +29,7 @@ export default function Home() {
     <Layout title="つちのこ　就労継続支援B型事業所">
       <div
         className={styles.MainImg}
-        style={{ backgroundImage: `url('/main-img.png')` }}
+        style={{ backgroundImage: `url('/main-img.webp')` }}
       ></div>
       <section className={`${styles.container} ${styles.About}`}>
         <div
