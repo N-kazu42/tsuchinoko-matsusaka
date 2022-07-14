@@ -30,7 +30,7 @@ const Company = () => {
         <div className={`${styles.Block2} ${styles.container}`}>
           <div
             className={styles.ProfileImg}
-            style={{ backgroundImage: `url('/AboutImg1.jpg')` }}
+            style={{ backgroundImage: `url('/AboutImg1.webp')` }}
           ></div>
           <div className={styles.ProfileText}>
             <div className={`${styles.ComentFont}`}>
