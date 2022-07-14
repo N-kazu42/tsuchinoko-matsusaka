@@ -9,7 +9,6 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
     <div>
       <Head>
         <title>{title}</title>
-        
       </Head>
       <header>
         <nav className={styles.NavContainer}>
