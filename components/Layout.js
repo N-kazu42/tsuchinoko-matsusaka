@@ -21,7 +21,7 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
           <div className={styles.addressContainer}>
             <span className={styles.logo}>
               <Image
-                src="/FooterLogo.webp"
+                src="/img/FooterLogo.webp"
                 alt="Logo"
                 width={261}
                 height={151}
