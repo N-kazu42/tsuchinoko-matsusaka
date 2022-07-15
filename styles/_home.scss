@@ -11,8 +11,9 @@
     h1 {
         background-image: url('/main.webp');
         z-index: 1;
+
         width: 35%;
-        height: 35%;
+        height: 10%;
         // @media screen and (max-width: 1300px) {
         //     width: 400px;
         //     height: 250px;
@@ -26,9 +27,9 @@
         //     height: 180px;
         // }
         @media screen and (max-width: 450px) {
-            background-image: url('/sp-main.webp');
-            width: 45%;
-            margin-top: 3rem;
+            // background-image: url('/sp-main.webp');
+            
+            margin-top: 2rem;
         }
         background-size: contain;
         background-repeat: no-repeat;
