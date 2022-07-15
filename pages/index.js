@@ -41,7 +41,7 @@ export default function Home() {
         >
           <div
             className={styles.AboutImg}
-            style={{ backgroundImage: `url('/AboutImg1.webp')` }}
+            style={{ backgroundImage: `url('/img/AboutImg1.webp')` }}
           ></div>
           <div className={styles.AboutText}>
             <p className={`${styles.AboutTitle} ${styles.TitleFont}`}>
@@ -59,7 +59,7 @@ export default function Home() {
         >
           <div
             className={styles.AboutImg}
-            style={{ backgroundImage: `url('/AboutImg2.webp')` }}
+            style={{ backgroundImage: `url('/img/AboutImg2.webp')` }}
           ></div>
           <div className={styles.AboutText}>
             <p className={`${styles.AboutTitle} ${styles.TitleFont}`}>
