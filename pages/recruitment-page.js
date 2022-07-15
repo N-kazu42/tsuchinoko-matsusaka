@@ -55,27 +55,27 @@ export default function Recruitment() {
           <div
             className={styles.Img}
           >
-            <Image src={"/AboutImg1.webp"} layout="fill" alt="logo" />
+            <Image src={"/AboutImg2.webp"} layout="fill" alt="logo" />
           </div>
           <div
             className={styles.Img}
           >
-            <Image src={"/AboutImg1.webp"} layout="fill" alt="logo" />
+            <Image src={"/AboutImg3.webp"} layout="fill" alt="logo" />
           </div>
           <div
             className={styles.Img}
           >
-            <Image src={"/AboutImg1.webp"} layout="fill" alt="logo" />
+            <Image src={"/AboutImg4.webp"} layout="fill" alt="logo" />
           </div>
           <div
             className={styles.Img}
           >
-            <Image src={"/AboutImg1.webp"} layout="fill" alt="logo" />
+            <Image src={"/AboutImg5.webp"} layout="fill" alt="logo" />
           </div>
           <div
             className={styles.Img}
           >
-            <Image src={"/AboutImg1.webp"} layout="fill" alt="logo" />
+            <Image src={"/AboutImg6.webp"} layout="fill" alt="logo" />
           </div>
          
         </div>

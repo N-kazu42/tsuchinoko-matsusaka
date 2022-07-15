@@ -30,7 +30,9 @@ export default function Home() {
       <div
         className={styles.MainImg}
         style={{ backgroundImage: `url('/main-img.webp')` }}
-      ></div>
+      >
+        <h1></h1>
+      </div>
       <section className={`${styles.container} ${styles.About}`}>
         <div
           key={1}
@@ -57,7 +59,7 @@ export default function Home() {
         >
           <div
             className={styles.AboutImg}
-            style={{ backgroundImage: `url('/AboutImg1.webp')` }}
+            style={{ backgroundImage: `url('/AboutImg2.webp')` }}
           ></div>
           <div className={styles.AboutText}>
             <p className={`${styles.AboutTitle} ${styles.TitleFont}`}>

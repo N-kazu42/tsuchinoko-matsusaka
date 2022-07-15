@@ -137,7 +137,10 @@
     }
 
     .Block2 {
-        margin-top: 0rem;
+        margin: 0 0 5rem 12rem;
+        @media screen and (max-width: 1500px) {
+            margin: 0 0 5rem 0;
+        }
         position: relative;
         height: 450px;
         .ProfileImg {
