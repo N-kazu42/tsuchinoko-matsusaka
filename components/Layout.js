@@ -60,7 +60,7 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
             </ul>
           </nav>
         </div>
-        <p style={{ textAlign: "center" }}>Powered by </p>
+        <p style={{ textAlign: "center" }}>copyright(C) 2022 つちのこ　就労継続支援B型事業所 All Rights Reserved.</p>
       </footer>
     </div>
   );
