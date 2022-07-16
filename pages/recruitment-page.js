@@ -43,41 +43,52 @@ export default function Recruitment() {
           </p>
         </div>
         <div className={styles.Title}>
-          <p>施設紹介</p>
-          <p className={styles.SubTitle}>introduction</p>
+          <p>作業内容のご案内</p>
+          <p className={styles.SubTitle}>information</p>
         </div>
-        <div className={`${styles.Imgs} ${styles.container}`}>
-          <div
-            className={styles.Img}
-          >
-            <Image src={"/img/AboutImg1.jpg"} layout="fill" alt="logo" />
+        <div className={`${styles.InfoBlock} ${styles.container}`}>
+          <div className={styles.InfoCard}>
+            <div className={styles.InfoCardTitle}>腐葉土づくり</div>
+            <div className={styles.InfoCardText}>
+              市内の公園などで落ち葉を拾い、見晴らしのいい土地で発酵させて腐葉土にします。
+              できた腐葉土を作業所に持ってきてふるいにかけて袋詰めを行います。袋詰めした商品はベルファームなどで販売を行っています。
+            </div>
+            <div className={styles.InfoCardImg}>
+              <Image
+                src={"/img/CardImg1.webp"}
+                layout="fill"
+                alt="腐葉土づくり風景"
+              />
+            </div>
           </div>
-          <div
-            className={styles.Img}
-          >
-            <Image src={"/img/AboutImg2.jpg"} layout="fill" alt="logo" />
+          <div className={styles.InfoCard}>
+            <div className={styles.InfoCardTitle}>レモングラスづくり</div>
+            <div className={styles.InfoCardText}>
+              市内の見晴らしのいい土地で無農薬のレモングラスを栽培。
+              収穫し水洗い、自然乾燥、手作業でカットし袋詰めした商品は、近くの市町村のお店で販売を行っています。
+            </div>
+            <div className={styles.InfoCardImg}>
+              <Image
+                src={"/img/CardImg2.webp"}
+                layout="fill"
+                alt="レモングラスづくり風景"
+              />
+            </div>
           </div>
-          <div
-            className={styles.Img}
-          >
-            <Image src={"/img/AboutImg3.jpg"} layout="fill" alt="logo" />
+          <div className={styles.InfoCard}>
+            <div className={styles.InfoCardTitle}>茶オイルづくり</div>
+            <div className={styles.InfoCardText}>
+              市内の使わなくなった茶畑でお茶の実を収穫し、天日干しし手作業で殻を割り手動オイル機でオイルを抽出しています。
+              バームを製造、市内のお店で販売予定です。
+            </div>
+            <div className={styles.InfoCardImg}>
+              <Image
+                src={"/img/CardImg3.webp"}
+                layout="fill"
+                alt="茶オイルづくり風景"
+              />
+            </div>
           </div>
-          <div
-            className={styles.Img}
-          >
-            <Image src={"/img/AboutImg4.jpg"} layout="fill" alt="logo" />
-          </div>
-          <div
-            className={styles.Img}
-          >
-            <Image src={"/img/AboutImg5.jpg"} layout="fill" alt="logo" />
-          </div>
-          <div
-            className={styles.Img}
-          >
-            <Image src={"/img/AboutImg6.jpg"} layout="fill" alt="logo" />
-          </div>
-         
         </div>
         <div className={styles.Title}>
           <p>1日の流れ</p>
@@ -136,7 +147,7 @@ export default function Recruitment() {
           <p>ご利用の流れ</p>
           <p className={styles.SubTitle}>Usage flow</p>
         </div>
-        <div className={`${styles.Flow} ${styles.container}`}ref={ref}>
+        <div className={`${styles.Flow} ${styles.container}`} ref={ref}>
           <motion.div
             custom={0}
             animate={animation}
