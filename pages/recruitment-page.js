@@ -46,6 +46,10 @@ export default function Recruitment() {
           <p>作業内容のご案内</p>
           <p className={styles.SubTitle}>information</p>
         </div>
+        <div className={styles.Info}>
+          <p>販売店募集</p>
+        </div>
+        
         <div className={`${styles.InfoBlock} ${styles.container}`}>
           <div className={styles.InfoCard}>
             <div className={styles.InfoCardTitle}>腐葉土づくり</div>

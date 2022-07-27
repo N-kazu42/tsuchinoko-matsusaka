@@ -65,6 +65,27 @@
         }
     }
     .Info {
+        -webkit-animation:Info 1.5s ease-in-out infinite alternate;
+        -moz-animation:Info 1.5s ease-in-out infinite alternate;
+        animation:Info 1.5s ease-in-out infinite alternate;
+        p{
+            text-align: center;
+            font-size: 1.5rem;
+            color: $accent-color;
+        }
+            
+            @-webkit-keyframes Info{
+                0% {opacity:0;}
+                100% {opacity:1;}
+            }
+            @-moz-keyframes Info{
+                0% {opacity:0;}
+                100% {opacity:1;}
+            }
+            @keyframes Info{
+                0% {opacity:0;}
+                100% {opacity:1;}
+            }
         &Block {
             display: flex;
             flex-wrap: wrap;
