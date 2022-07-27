@@ -9,6 +9,10 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
     <div>
       <Head>
         <title>{title}</title>
+        <meta name="google-site-verification" content="qGfhCaDPTj7N7SpYQHiBj-HRrFVtjwSU9fTDoog-KVQ" />
+        <meta name="title" content="就労継続支援B型事業所　つちのこ　三重/松阪" />
+        <meta name="description" content="体力や力が無くてもでき、個々のペースに合わせて作業を行っています。" />
+
       </Head>
       <header>
         <nav className={styles.NavContainer}>
