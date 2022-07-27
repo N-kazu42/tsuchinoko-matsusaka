@@ -90,6 +90,30 @@ export default function Recruitment() {
             </div>
           </div>
         </div>
+        <div className={`${styles.InfoBlock} ${styles.container}`}>
+        <div className={styles.InfoNews}>
+            
+            <div className={styles.InfoNewsImg}>
+              <Image
+                src={"/img/NewsImg1.webp"}
+                layout="fill"
+                alt="新聞記事1"
+              />
+            </div>
+          </div>
+          <div className={styles.InfoNews}>
+           
+            <div className={styles.InfoNewsImg}>
+              <Image
+                src={"/img/NewsImg2.webp"}
+                layout="fill"
+                alt="新聞記事2"
+              />
+            </div>
+          </div>
+
+        </div>
+
         <div className={styles.Title}>
           <p>1日の流れ</p>
           <p className={styles.SubTitle}>flow</p>

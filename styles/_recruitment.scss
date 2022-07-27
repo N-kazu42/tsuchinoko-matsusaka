@@ -70,6 +70,7 @@
             flex-wrap: wrap;
             gap: 2rem;
             align-items: center;
+            justify-content:center
         }
 
         &Card {
@@ -81,6 +82,7 @@
             justify-content: center;
             padding: 1rem;
             margin-right: 20px;
+            margin-top: 1rem;
             background: #ffffff;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 20px;
@@ -116,6 +118,41 @@
                 flex-grow: 1;
                 font-size: 1rem;
                 padding: 1rem 0.5rem;
+            }
+            &Img {
+                position: relative;
+                width: 100%;
+                height: 250px;
+                
+            }
+        }
+        &News{
+            display: flex;
+            flex-direction: column;
+            width: calc(30.33333333% - 25px * 2 / 3);
+            height: 350px;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            margin-right: 20px;
+            margin-top: 1rem;
+            background: #ffffff;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            @media screen and (max-width: 1100px) {
+                height: 370px;
+            }
+            @media screen and (max-width: 880px) {
+                height: 300px;
+            }
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            height: 350px;
+
+                margin-bottom: 20px;
+                max-width: 400px;
+                margin-left: auto;
+                margin-right: auto;
             }
             &Img {
                 position: relative;
