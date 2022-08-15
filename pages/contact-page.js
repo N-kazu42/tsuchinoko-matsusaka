@@ -23,7 +23,7 @@ const Contact = () => {
           </p>
         </div>
         <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSe9qfAvu01fWrwT0I7vJcbYrfvKgU2nJPd53t5IoJo1xopAJA/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLScxY-1DJofrzfmjf6rVbNWUIe0dn8UfJX4Cx7NRgeeezwWK-A/viewform?embedded=true"
           width="640"
           height="1200"
           frameBorder="0"
